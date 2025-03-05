@@ -1,0 +1,31 @@
+{
+  "name": "countries",
+  "version": "1.0.0",
+  "description": "Test assessment",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sterenchuk/countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sterenchuk/countries/issues"
+  },
+  "homepage": "https://github.com/Sterenchuk/countries#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "pg-promise": "^11.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9"
+  }
+}
