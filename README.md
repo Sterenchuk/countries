@@ -66,15 +66,19 @@ npm start
 ## API Endpoints
 
 1. GET /available-countries
+
    Fetch the list of available countries.
 
 2. GET /country-info/:countryCode
+
    Fetch detailed information about a country using its country code.
 
 3. GET /country-population/:countryCode
+
    Fetch population information for a specific country.
 
 4. POST /add-holidays/:userId
+
    Add holidays for a specific user, country, and year to the user's calendar.
 
 request body
